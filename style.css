@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Yeseva+One&display=swap');
+
+body {
+    background-color: #AB6B51; 
+}
 
 .arts-bg {
     min-height: 100vh;
@@ -24,3 +30,65 @@
             color: white;
         }
 
+       .content {
+        background-color: #D0B49F;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        width: 100%;
+        margin: 0rem auto 0 auto;
+       }
+
+       .content img {
+        height: 250px;
+       }
+
+       .content h3 {
+        margin: 0;
+        font-family: 'Yeseva One', cursive;
+        font-size: 50px;
+       }
+
+       .content p {
+        margin-right: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+       }
+
+
+
+       .one {
+        font-family: 'Yeseva One', cursive;
+        font-size: 50px;
+       }
+
+       .timeline {
+        background: var(--primary-color);
+        margin: 20px auto;
+        padding: 20px;
+      }
+
+      .outer {
+        border-left: 2px solid #A47551;
+      }
+
+      .card {
+        position: relative;
+        margin: 0 0 20px 20px;
+        padding: 10px;
+        background: #E4D4C8;
+        color: gray;
+        border-radius: 8px;
+        max-width: 400px;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .title {
+        color: Black;
+        position: relative;
+      }
