@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Yeseva+One&display=swap');
 
 body {
-    background-color: #AB6B51; 
+    background-color: #AB6B51;
 }
 
 .arts-bg {
@@ -92,3 +92,25 @@ body {
         color: Black;
         position: relative;
       }
+
+      .content2 {
+        background-color: #D0B49F;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        width: 100%;
+        margin: 0rem auto 0 auto;
+      }
+
+      .content2 h3 {
+        margin: 0;
+        font-family: 'Yeseva One', cursive;
+        font-size: 50px;
+       }
+
+       .content2 p {
+        margin-right: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+       }
+
